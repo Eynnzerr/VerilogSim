@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/assignment/DESIM/Ch3/CD4532/simulation/qsim
+vCD4532
+Z1 !s110 1640396815
+!i10b 1
+!s100 afLLM?k^d@5QB;h?5MMmN0
+IhB509Efg<3SX?9Z`jPkdh2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1640396809
+8CD4532.vo
+FCD4532.vo
+L0 32
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1640396815.000000
+!s107 CD4532.vo|
+!s90 -work|work|CD4532.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@c@d4532
+vCD4532_vlg_vec_tst
+R1
+!i10b 1
+!s100 l0`:n:T9TQjceh^7zeCG21
+I>4]HY6Z2^bMP_We1_^Bng0
+R2
+R0
+R3
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+R7
+n@c@d4532_vlg_vec_tst

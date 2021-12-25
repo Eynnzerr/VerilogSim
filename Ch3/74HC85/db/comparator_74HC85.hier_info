@@ -1,0 +1,28 @@
+|comparator_74HC85
+I[0] => Equal0.IN2
+I[0] => Equal1.IN2
+I[1] => Equal0.IN1
+I[1] => Equal1.IN0
+I[2] => Equal0.IN0
+I[2] => Equal1.IN1
+A[0] => LessThan6.IN1
+A[0] => LessThan7.IN1
+A[1] => LessThan4.IN1
+A[1] => LessThan5.IN1
+A[2] => LessThan2.IN1
+A[2] => LessThan3.IN1
+A[3] => LessThan0.IN1
+A[3] => LessThan1.IN1
+B[0] => LessThan6.IN2
+B[0] => LessThan7.IN2
+B[1] => LessThan4.IN2
+B[1] => LessThan5.IN2
+B[2] => LessThan2.IN2
+B[2] => LessThan3.IN2
+B[3] => LessThan0.IN2
+B[3] => LessThan1.IN2
+L[0] <= L.DB_MAX_OUTPUT_PORT_TYPE
+L[1] <= L.DB_MAX_OUTPUT_PORT_TYPE
+L[2] <= L.DB_MAX_OUTPUT_PORT_TYPE
+
+

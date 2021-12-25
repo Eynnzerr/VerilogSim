@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/assignment/DESIM/Ch6/simulation/qsim
+vcounter74LVC161
+Z1 !s110 1639399703
+!i10b 1
+!s100 X1LdDgko0]OZi=gKnkEBP2
+IKGT]^6JN8IL_F_;NK_9Hd0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1639399703
+8counter74LVC161.vo
+Fcounter74LVC161.vo
+L0 32
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1639399703.000000
+!s107 counter74LVC161.vo|
+!s90 -work|work|counter74LVC161.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+ncounter74@l@v@c161
+vcounter74LVC161_vlg_vec_tst
+R1
+!i10b 1
+!s100 F[LcSLWoAHdEjYk2Jn^=S2
+IDWSiekLjaAi52zOzn1?]>0
+R2
+R0
+w1639399702
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6
+ncounter74@l@v@c161_vlg_vec_tst

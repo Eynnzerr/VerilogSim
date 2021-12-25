@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/assignment/DESIM/Ch3/74HC138/simulation/qsim
+vdecoder_74HC138
+Z1 !s110 1640397309
+!i10b 1
+!s100 I9BaUdG023Z1BkQ3BA4Z33
+I`RiYT[aUW_Mid0aN]8bf22
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1640397308
+8decoder_74HC138.vo
+Fdecoder_74HC138.vo
+L0 32
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1640397309.000000
+!s107 decoder_74HC138.vo|
+!s90 -work|work|decoder_74HC138.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+ndecoder_74@h@c138
+vdecoder_74HC138_vlg_vec_tst
+R1
+!i10b 1
+!s100 UM=9^Dk4cl;FYSifK2V]23
+ImZ:F^LCLk==M9Jz`Z43CG2
+R2
+R0
+R3
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+R7
+ndecoder_74@h@c138_vlg_vec_tst

@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/assignment/DESIM/Ch3/74HC151/simulation/qsim
+vselector_74HC151
+!s110 1640398769
+!i10b 1
+!s100 1Bk_7McYU=4;;_20XbGeH3
+I;ibmSk8n7XbXb@jB:eRHM2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1640398769
+8selector_74HC151.vo
+Fselector_74HC151.vo
+L0 32
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1640398769.000000
+!s107 selector_74HC151.vo|
+!s90 -work|work|selector_74HC151.vo|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+nselector_74@h@c151
+vselector_74HC151_vlg_vec_tst
+!s110 1640398770
+!i10b 1
+!s100 ?e>a^JZZYJ:HY3a]aSALn2
+ISfQQ>3<L=cn3[eggZOS_<3
+R1
+R0
+w1640398768
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R2
+r1
+!s85 0
+31
+!s108 1640398770.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R3
+R4
+nselector_74@h@c151_vlg_vec_tst

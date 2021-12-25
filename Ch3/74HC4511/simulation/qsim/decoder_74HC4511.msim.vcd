@@ -1,0 +1,1306 @@
+$comment
+	File created using the following command:
+		vcd file decoder_74HC4511.msim.vcd -direction
+$end
+$date
+	Sat Dec 25 10:09:40 2021
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module decoder_74HC4511_vlg_vec_tst $end
+$var reg 1 ! BL $end
+$var reg 4 " D [3:0] $end
+$var reg 1 # LE $end
+$var reg 1 $ LT $end
+$var wire 1 % L [6] $end
+$var wire 1 & L [5] $end
+$var wire 1 ' L [4] $end
+$var wire 1 ( L [3] $end
+$var wire 1 ) L [2] $end
+$var wire 1 * L [1] $end
+$var wire 1 + L [0] $end
+
+$scope module i1 $end
+$var wire 1 , gnd $end
+$var wire 1 - vcc $end
+$var wire 1 . unknown $end
+$var tri1 1 / devclrn $end
+$var tri1 1 0 devpor $end
+$var tri1 1 1 devoe $end
+$var wire 1 2 L[0]~output_o $end
+$var wire 1 3 L[1]~output_o $end
+$var wire 1 4 L[2]~output_o $end
+$var wire 1 5 L[3]~output_o $end
+$var wire 1 6 L[4]~output_o $end
+$var wire 1 7 L[5]~output_o $end
+$var wire 1 8 L[6]~output_o $end
+$var wire 1 9 LE~input_o $end
+$var wire 1 : BL~input_o $end
+$var wire 1 ; LT~input_o $end
+$var wire 1 < L[6]~1_combout $end
+$var wire 1 = L[6]~1clkctrl_outclk $end
+$var wire 1 > D[3]~input_o $end
+$var wire 1 ? D[1]~input_o $end
+$var wire 1 @ D[2]~input_o $end
+$var wire 1 A D[0]~input_o $end
+$var wire 1 B WideOr6~0_combout $end
+$var wire 1 C L[0]~0_combout $end
+$var wire 1 D L[0]$latch~combout $end
+$var wire 1 E WideOr5~0_combout $end
+$var wire 1 F L[1]~2_combout $end
+$var wire 1 G L[1]$latch~combout $end
+$var wire 1 H WideOr4~0_combout $end
+$var wire 1 I L[2]~3_combout $end
+$var wire 1 J L[2]$latch~combout $end
+$var wire 1 K WideOr3~0_combout $end
+$var wire 1 L L[3]~4_combout $end
+$var wire 1 M L[3]$latch~combout $end
+$var wire 1 N WideOr2~0_combout $end
+$var wire 1 O L[4]~5_combout $end
+$var wire 1 P L[4]$latch~combout $end
+$var wire 1 Q WideOr1~0_combout $end
+$var wire 1 R L[5]~6_combout $end
+$var wire 1 S L[5]$latch~combout $end
+$var wire 1 T WideOr0~0_combout $end
+$var wire 1 U L[6]~7_combout $end
+$var wire 1 V L[6]$latch~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+b0 "
+0#
+0$
+1+
+1*
+1)
+1(
+1'
+1&
+1%
+0,
+1-
+x.
+1/
+10
+11
+12
+13
+14
+15
+16
+17
+18
+09
+0:
+0;
+1<
+1=
+0>
+0?
+0@
+0A
+0B
+1C
+1D
+1E
+0F
+1G
+1H
+0I
+1J
+1K
+0L
+1M
+0N
+0O
+1P
+0Q
+0R
+1S
+1T
+0U
+1V
+$end
+#10000
+b1 "
+1A
+0T
+0K
+0H
+0E
+#20000
+b11 "
+b10 "
+0A
+1?
+1T
+1N
+1K
+1H
+1B
+#30000
+b11 "
+1A
+0N
+0H
+#40000
+b111 "
+b101 "
+b100 "
+0A
+0?
+1@
+0T
+0K
+1E
+#50000
+1!
+1$
+b101 "
+1:
+1;
+1A
+1T
+1Q
+1K
+1U
+1L
+1I
+0L
+1R
+0U
+0J
+0M
+0V
+08
+05
+04
+0)
+0(
+0%
+1V
+0S
+1M
+15
+07
+18
+1%
+0&
+1(
+#60000
+b111 "
+b110 "
+0A
+1?
+0T
+1H
+0I
+1U
+0V
+1J
+14
+08
+0%
+1)
+#70000
+b111 "
+1A
+1T
+0Q
+0K
+0H
+0E
+0B
+0C
+1F
+1I
+1L
+0R
+0U
+1V
+1S
+0M
+0J
+0G
+0D
+02
+03
+04
+05
+17
+18
+1%
+1&
+0(
+0)
+0*
+0+
+#80000
+b1111 "
+b1011 "
+b1001 "
+b1000 "
+0A
+0?
+0@
+1>
+1K
+1H
+1E
+1B
+1C
+0F
+0I
+0L
+1M
+1J
+1G
+1D
+12
+13
+14
+15
+1(
+1)
+1*
+1+
+#90000
+b1001 "
+1A
+0H
+1I
+0J
+04
+0)
+#100000
+b1011 "
+b1010 "
+0A
+1?
+0T
+1Q
+1N
+0K
+0E
+0B
+0C
+1F
+1L
+1O
+1R
+1U
+0V
+0S
+0P
+0M
+0G
+0D
+02
+03
+05
+06
+07
+08
+0%
+0&
+0'
+0(
+0*
+0+
+#110000
+b1011 "
+1A
+#120000
+b1111 "
+b1101 "
+b1100 "
+0A
+0?
+1@
+#130000
+b1101 "
+1A
+#140000
+b1111 "
+b1110 "
+0A
+1?
+#150000
+b1111 "
+1A
+#160000
+b111 "
+b11 "
+b1 "
+b0 "
+0A
+0?
+0@
+0>
+1T
+0Q
+0N
+1K
+1H
+1E
+0F
+0I
+0L
+0O
+0R
+0U
+1V
+1S
+1P
+1M
+1J
+1G
+13
+14
+15
+16
+17
+18
+1%
+1&
+1'
+1(
+1)
+1*
+#170000
+b1 "
+1A
+0T
+0K
+0H
+0E
+1F
+1I
+1L
+1U
+0V
+0M
+0J
+0G
+03
+04
+05
+08
+0%
+0(
+0)
+0*
+#180000
+b11 "
+b10 "
+0A
+1?
+1T
+1N
+1K
+1H
+1B
+1C
+0I
+0L
+1O
+0U
+1V
+0P
+1M
+1J
+1D
+12
+14
+15
+06
+18
+1%
+0'
+1(
+1)
+1+
+#190000
+b11 "
+1A
+0N
+0H
+1I
+0O
+1P
+0J
+04
+16
+1'
+0)
+#200000
+b111 "
+b101 "
+b100 "
+0A
+0?
+1@
+0T
+0K
+1E
+0F
+1L
+1U
+0V
+0M
+1G
+13
+05
+08
+0%
+0(
+1*
+#210000
+b101 "
+1A
+1T
+1Q
+1K
+0L
+1R
+0U
+1V
+0S
+1M
+15
+07
+18
+1%
+0&
+1(
+#220000
+b111 "
+b110 "
+0A
+1?
+0T
+1H
+0I
+1U
+0V
+1J
+14
+08
+0%
+1)
+#230000
+b111 "
+1A
+1T
+0Q
+0K
+0H
+0E
+0B
+0C
+1F
+1I
+1L
+0R
+0U
+1V
+1S
+0M
+0J
+0G
+0D
+02
+03
+04
+05
+17
+18
+1%
+1&
+0(
+0)
+0*
+0+
+#240000
+b1111 "
+b1011 "
+b1001 "
+b1000 "
+0A
+0?
+0@
+1>
+1K
+1H
+1E
+1B
+1C
+0F
+0I
+0L
+1M
+1J
+1G
+1D
+12
+13
+14
+15
+1(
+1)
+1*
+1+
+#250000
+b1001 "
+1A
+0H
+1I
+0J
+04
+0)
+#260000
+b1011 "
+b1010 "
+0A
+1?
+0T
+1Q
+1N
+0K
+0E
+0B
+0C
+1F
+1L
+1O
+1R
+1U
+0V
+0S
+0P
+0M
+0G
+0D
+02
+03
+05
+06
+07
+08
+0%
+0&
+0'
+0(
+0*
+0+
+#270000
+b1011 "
+1A
+#280000
+b1111 "
+b1101 "
+b1100 "
+0A
+0?
+1@
+#290000
+b1101 "
+1A
+#300000
+b1111 "
+b1110 "
+0A
+1?
+#310000
+b1111 "
+1A
+#320000
+b111 "
+b11 "
+b1 "
+b0 "
+0A
+0?
+0@
+0>
+1T
+0Q
+0N
+1K
+1H
+1E
+0F
+0I
+0L
+0O
+0R
+0U
+1V
+1S
+1P
+1M
+1J
+1G
+13
+14
+15
+16
+17
+18
+1%
+1&
+1'
+1(
+1)
+1*
+#330000
+b1 "
+1A
+0T
+0K
+0H
+0E
+1F
+1I
+1L
+1U
+0V
+0M
+0J
+0G
+03
+04
+05
+08
+0%
+0(
+0)
+0*
+#340000
+b11 "
+b10 "
+0A
+1?
+1T
+1N
+1K
+1H
+1B
+1C
+0I
+0L
+1O
+0U
+1V
+0P
+1M
+1J
+1D
+12
+14
+15
+06
+18
+1%
+0'
+1(
+1)
+1+
+#350000
+b11 "
+1A
+0N
+0H
+1I
+0O
+1P
+0J
+04
+16
+1'
+0)
+#360000
+b111 "
+b101 "
+b100 "
+0A
+0?
+1@
+0T
+0K
+1E
+0F
+1L
+1U
+0V
+0M
+1G
+13
+05
+08
+0%
+0(
+1*
+#370000
+b101 "
+1A
+1T
+1Q
+1K
+0L
+1R
+0U
+1V
+0S
+1M
+15
+07
+18
+1%
+0&
+1(
+#380000
+b111 "
+b110 "
+0A
+1?
+0T
+1H
+0I
+1U
+0V
+1J
+14
+08
+0%
+1)
+#390000
+b111 "
+1A
+1T
+0Q
+0K
+0H
+0E
+0B
+0C
+1F
+1I
+1L
+0R
+0U
+1V
+1S
+0M
+0J
+0G
+0D
+02
+03
+04
+05
+17
+18
+1%
+1&
+0(
+0)
+0*
+0+
+#400000
+b1111 "
+b1011 "
+b1001 "
+b1000 "
+0A
+0?
+0@
+1>
+1K
+1H
+1E
+1B
+1C
+0F
+0I
+0L
+1M
+1J
+1G
+1D
+12
+13
+14
+15
+1(
+1)
+1*
+1+
+#410000
+b1001 "
+1A
+0H
+1I
+0J
+04
+0)
+#420000
+b1011 "
+b1010 "
+0A
+1?
+0T
+1Q
+1N
+0K
+0E
+0B
+0C
+1F
+1L
+1O
+1R
+1U
+0V
+0S
+0P
+0M
+0G
+0D
+02
+03
+05
+06
+07
+08
+0%
+0&
+0'
+0(
+0*
+0+
+#430000
+b1011 "
+1A
+#440000
+b1111 "
+b1101 "
+b1100 "
+0A
+0?
+1@
+#450000
+1#
+b1101 "
+19
+1A
+0<
+0=
+#460000
+b1111 "
+b1110 "
+0A
+1?
+#470000
+b1111 "
+1A
+#480000
+b111 "
+b11 "
+b1 "
+b0 "
+0A
+0?
+0@
+0>
+1T
+0Q
+0N
+1K
+1H
+1E
+#490000
+b1 "
+1A
+0T
+0K
+0H
+0E
+#500000
+b11 "
+b10 "
+0A
+1?
+1T
+1N
+1K
+1H
+1B
+#510000
+b11 "
+1A
+0N
+0H
+#520000
+b111 "
+b101 "
+b100 "
+0A
+0?
+1@
+0T
+0K
+1E
+#530000
+b101 "
+1A
+1T
+1Q
+1K
+#540000
+b111 "
+b110 "
+0A
+1?
+0T
+1H
+#550000
+b111 "
+1A
+1T
+0Q
+0K
+0H
+0E
+0B
+#560000
+b1111 "
+b1011 "
+b1001 "
+b1000 "
+0A
+0?
+0@
+1>
+1K
+1H
+1E
+1B
+#570000
+b1001 "
+1A
+0H
+#580000
+b1011 "
+b1010 "
+0A
+1?
+0T
+1Q
+1N
+0K
+0E
+0B
+#590000
+b1011 "
+1A
+#600000
+b1111 "
+b1101 "
+b1100 "
+0A
+0?
+1@
+#610000
+b1101 "
+1A
+#620000
+b1111 "
+b1110 "
+0A
+1?
+#630000
+b1111 "
+1A
+#640000
+b111 "
+b11 "
+b1 "
+b0 "
+0A
+0?
+0@
+0>
+1T
+0Q
+0N
+1K
+1H
+1E
+#650000
+b1 "
+1A
+0T
+0K
+0H
+0E
+#660000
+b11 "
+b10 "
+0A
+1?
+1T
+1N
+1K
+1H
+1B
+#670000
+b11 "
+1A
+0N
+0H
+#680000
+b111 "
+b101 "
+b100 "
+0A
+0?
+1@
+0T
+0K
+1E
+#690000
+b101 "
+1A
+1T
+1Q
+1K
+#700000
+b111 "
+b110 "
+0A
+1?
+0T
+1H
+#710000
+b111 "
+1A
+1T
+0Q
+0K
+0H
+0E
+0B
+#720000
+b1111 "
+b1011 "
+b1001 "
+b1000 "
+0A
+0?
+0@
+1>
+1K
+1H
+1E
+1B
+#730000
+b1001 "
+1A
+0H
+#740000
+b1011 "
+b1010 "
+0A
+1?
+0T
+1Q
+1N
+0K
+0E
+0B
+#750000
+b1011 "
+1A
+#760000
+b1111 "
+b1101 "
+b1100 "
+0A
+0?
+1@
+#770000
+b1101 "
+1A
+#780000
+b1111 "
+b1110 "
+0A
+1?
+#790000
+b1111 "
+1A
+#800000
+b111 "
+b11 "
+b1 "
+b0 "
+0A
+0?
+0@
+0>
+1T
+0Q
+0N
+1K
+1H
+1E
+#810000
+b1 "
+1A
+0T
+0K
+0H
+0E
+#820000
+b11 "
+b10 "
+0A
+1?
+1T
+1N
+1K
+1H
+1B
+#830000
+b11 "
+1A
+0N
+0H
+#840000
+b111 "
+b101 "
+b100 "
+0A
+0?
+1@
+0T
+0K
+1E
+#850000
+b101 "
+1A
+1T
+1Q
+1K
+#860000
+b111 "
+b110 "
+0A
+1?
+0T
+1H
+#870000
+b111 "
+1A
+1T
+0Q
+0K
+0H
+0E
+0B
+#880000
+b1111 "
+b1011 "
+b1001 "
+b1000 "
+0A
+0?
+0@
+1>
+1K
+1H
+1E
+1B
+#890000
+b1001 "
+1A
+0H
+#900000
+b1011 "
+b1010 "
+0A
+1?
+0T
+1Q
+1N
+0K
+0E
+0B
+#910000
+b1011 "
+1A
+#920000
+b1111 "
+b1101 "
+b1100 "
+0A
+0?
+1@
+#930000
+b1101 "
+1A
+#940000
+b1111 "
+b1110 "
+0A
+1?
+#950000
+b1111 "
+1A
+#960000
+b111 "
+b11 "
+b1 "
+b0 "
+0A
+0?
+0@
+0>
+1T
+0Q
+0N
+1K
+1H
+1E
+#970000
+b1 "
+1A
+0T
+0K
+0H
+0E
+#980000
+b11 "
+b10 "
+0A
+1?
+1T
+1N
+1K
+1H
+1B
+#990000
+b11 "
+1A
+0N
+0H
+#1000000

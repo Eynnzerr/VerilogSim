@@ -1,0 +1,21 @@
+|decoder_74HC4511
+LE => always0.IN0
+BL => Mux0.IN4
+BL => Mux1.IN4
+BL => always0.IN1
+LT => Mux0.IN5
+LT => Mux1.IN5
+LT => always0.IN1
+D[0] => Decoder0.IN3
+D[1] => Decoder0.IN2
+D[2] => Decoder0.IN1
+D[3] => Decoder0.IN0
+L[0] <= L[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+L[1] <= L[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+L[2] <= L[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+L[3] <= L[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+L[4] <= L[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+L[5] <= L[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+L[6] <= L[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

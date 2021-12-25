@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/assignment/DESIM/Ch6/74HC194/simulation/qsim
+vshift74HC194
+Z1 !s110 1639401714
+!i10b 1
+!s100 bM`cF8625feKLE9??TgSX3
+IiTJTA:dOMn5`TKP9W<nmz3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1639401713
+8shift74HC194.vo
+Fshift74HC194.vo
+L0 32
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1639401714.000000
+!s107 shift74HC194.vo|
+!s90 -work|work|shift74HC194.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+nshift74@h@c194
+vshift74HC194_vlg_vec_tst
+R1
+!i10b 1
+!s100 >IOBZ;=m_Uld]cXA];h5@3
+IGVhG>5GOM[hJd`20KKk0I3
+R2
+R0
+w1639401712
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6
+nshift74@h@c194_vlg_vec_tst
