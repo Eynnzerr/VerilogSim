@@ -1,0 +1,37 @@
+|latch_74HC373
+OE => Q[7]$latch.ACLR
+OE => Q[6]$latch.ACLR
+OE => Q[5]$latch.ACLR
+OE => Q[4]$latch.ACLR
+OE => Q[3]$latch.ACLR
+OE => Q[2]$latch.ACLR
+OE => Q[1]$latch.ACLR
+OE => Q[0]$latch.ACLR
+OE => Q[0]_42.ACLR
+LE => Q[7]$latch.LATCH_ENABLE
+LE => Q[6]$latch.LATCH_ENABLE
+LE => Q[5]$latch.LATCH_ENABLE
+LE => Q[4]$latch.LATCH_ENABLE
+LE => Q[3]$latch.LATCH_ENABLE
+LE => Q[2]$latch.LATCH_ENABLE
+LE => Q[1]$latch.LATCH_ENABLE
+LE => Q[0]$latch.LATCH_ENABLE
+LE => Q[0]_42.LATCH_ENABLE
+D[0] => Q[0]$latch.DATAIN
+D[1] => Q[1]$latch.DATAIN
+D[2] => Q[2]$latch.DATAIN
+D[3] => Q[3]$latch.DATAIN
+D[4] => Q[4]$latch.DATAIN
+D[5] => Q[5]$latch.DATAIN
+D[6] => Q[6]$latch.DATAIN
+D[7] => Q[7]$latch.DATAIN
+Q[0] <= Q[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3].DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4].DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Q[5].DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= Q[6].DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= Q[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

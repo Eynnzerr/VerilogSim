@@ -1,0 +1,17 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'CP'
+Slack : -2.846
+TNS   : -28.456
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'CP'
+Slack : -2.846
+TNS   : -28.478
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'CP'
+Slack : -2.846
+TNS   : -13.511
+
+------------------------------------------------------------
